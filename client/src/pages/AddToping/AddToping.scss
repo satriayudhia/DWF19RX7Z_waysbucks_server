@@ -1,0 +1,83 @@
+.form-toping-wrapper {
+  margin-left: 20%;
+  margin-right: 10%;
+  margin-top: 5%;
+  .form-input {
+    width: 100%;
+    height: 50px;
+    background: rgba(224, 200, 200, 0.25);
+    border: 2px solid #bd0707;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding-left: 10px;
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: rgba(104, 50, 50, 0.5);
+
+    &:active,
+    &:focus {
+      outline-style: none;
+    }
+  }
+  .form-header-toping {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #bd0707;
+    margin-bottom: 72px;
+    padding-left: 15px;
+  }
+  .btn-add-toping {
+    width: 664px;
+    height: 40px;
+    background: #bd0707;
+    border-radius: 5px;
+    border: 2px solid #bd0707;
+    margin-top: 50px;
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #ffffff;
+    cursor: pointer;
+
+    &:hover {
+      background: #fff;
+      border: 2px solid #bd0707;
+      color: #bd0707;
+    }
+  }
+
+  .img-toping-wrapper {
+    margin-left: 3%;
+    .img-add-toping {
+      width: 436px;
+      height: 555px;
+      object-fit: cover;
+      border-radius: 10px;
+      border: 2px solid #bd0707;
+    }
+    .uploading {
+      color: #bd0707;
+      position: absolute;
+      left: 25%;
+      top: 50%;
+    }
+  }
+
+  .attach-photo {
+    cursor: pointer;
+  }
+}

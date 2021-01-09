@@ -1,0 +1,244 @@
+.top-cart-mycart {
+  margin-top: 40px;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 33px;
+  color: #bd0707;
+  padding-top: 10px;
+  margin-bottom: -10px;
+}
+
+.top-cart-review {
+  margin-left: 10%;
+  margin-right: 51%;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #bd0707;
+  padding-top: 10px;
+  height: 40px;
+  margin-bottom: -10px;
+  border-bottom: 2px solid #bd0707;
+}
+
+.left-cart-detail {
+  margin-left: 10%;
+  .cart-container {
+    width: 120%;
+    .cart-img-wrapper {
+      margin-left: -15px;
+      margin-top: 10px;
+      position: relative;
+      padding-top: 10px;
+      .cart-img {
+        width: 80px;
+        height: 80px;
+        border-radius: 10px;
+        object-fit: cover;
+      }
+
+      .cart-logo {
+        position: absolute;
+        width: 19px;
+        height: 19px;
+        top: 65%;
+        left: 45%;
+      }
+    }
+
+    .cart-product-wrapper {
+      margin-top: 10px;
+      margin-left: -15px;
+      .cart-product-name {
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 19px;
+        padding-top: 12px;
+        padding-bottom: 5px;
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 0px;
+        color: #bd0707;
+        margin-left: -10px;
+      }
+      .cart-toping-title {
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 19px;
+        color: #974a4a;
+        display: flex;
+        align-items: flex-start;
+        margin-left: -10px;
+      }
+      .cart-toping-name {
+        width: 100%;
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 19px;
+        display: flex;
+        align-items: flex-start;
+        color: #974a4a;
+        margin-left: -10px;
+      }
+    }
+
+    .cart-price-wrapper {
+      margin-top: 10px;
+      text-align: end;
+      font-family: Avenir;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 19px;
+      color: #bd0707;
+      padding-top: 20px;
+      .remove-bin {
+        cursor: pointer;
+      }
+    }
+  }
+  .garis {
+    border-top: 2px solid #bd0707;
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+  .garis-subtotal {
+    border-top: 2px solid #bd0707;
+  }
+  .subtotal-price {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #bd0707;
+    padding: 10px;
+    .align-right {
+      text-align: end;
+    }
+  }
+  .total-price {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #bd0707;
+    padding: 10px;
+    .align-right {
+      text-align: end;
+    }
+  }
+  .attachment {
+    .attachment-img {
+      margin-left: 40%;
+      background: rgba(241, 231, 230, 1);
+      border-radius: 10px;
+      border: 2px solid #bd0707;
+      width: 216px;
+      height: 122px;
+      text-align: end;
+      margin-top: -15px;
+      cursor: pointer;
+      object-fit: scale-down;
+    }
+  }
+}
+
+.payment-column {
+  margin-left: 30px;
+  margin-right: 10%;
+  .form-input {
+    width: 100%;
+    height: 50px;
+    background: rgba(224, 200, 200, 0.25);
+    border: 2px solid #bd0707;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding-left: 10px;
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: rgba(104, 50, 50, 0.5);
+
+    &:active,
+    &:focus {
+      outline-style: none;
+    }
+  }
+  .form-textarea {
+    width: 100%;
+    height: 150px;
+    background: rgba(224, 200, 200, 0.25);
+    border: 2px solid #bd0707;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: rgba(104, 50, 50, 0.5);
+
+    &:active,
+    &:focus {
+      outline-style: none;
+    }
+  }
+  .btn-payment {
+    width: 420px;
+    height: 50px;
+    background: #bd0707;
+    border-radius: 5px;
+    border: 2px solid #bd0707;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    color: #ffffff;
+    cursor: pointer;
+    &:hover {
+      background: #fff;
+      border: 2px solid #bd0707;
+      color: #bd0707;
+    }
+  }
+}
+
+.text-center {
+  .order-status {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    color: #469f74;
+  }
+}

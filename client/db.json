@@ -1,0 +1,205 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Satria Yudhia Putra",
+      "email": "satria.yudhiap@gmail.com",
+      "password": "12345678",
+      "profpic": "https://res.cloudinary.com/satria-img/image/upload/v1606714001/satriayud/qqj70pde0cglhyqg69ru.jpg",
+      "isAdmin": false
+    },
+    {
+      "id": 2,
+      "name": "Dork",
+      "email": "yudha@gmail.com",
+      "password": "12345",
+      "profpic": "https://res.cloudinary.com/satria-img/image/upload/v1606646227/satriayud/197-1979569_no-profile_yn9cy0.png",
+      "isAdmin": false
+    },
+    {
+      "id": 1606529348114,
+      "name": "administrator",
+      "email": "admin@admin.com",
+      "password": "12345678",
+      "profpic": "https://res.cloudinary.com/satria-img/image/upload/v1606646227/satriayud/197-1979569_no-profile_yn9cy0.png",
+      "isAdmin": true
+    },
+    {
+      "id": 1606700049034,
+      "name": "new",
+      "email": "new",
+      "password": "new",
+      "profpic": "https://res.cloudinary.com/satria-img/image/upload/v1606646227/satriayud/197-1979569_no-profile_yn9cy0.png",
+      "isAdmin": false
+    },
+    {
+      "id": 1606718063230,
+      "name": "imam darto",
+      "email": "imam@gmail.com",
+      "password": "12345",
+      "profpic": "https://res.cloudinary.com/satria-img/image/upload/v1606718215/satriayud/mfleuksoi6wljf3lxyqo.jpg",
+      "isAdmin": false
+    }
+  ],
+  "topings": [
+    {
+      "id": 1,
+      "name": "Bubble Tea Gelatin",
+      "price": "4000",
+      "img": "https://s3-alpha-sig.figma.com/img/dfda/d843/75a3647d9dec32a2832a4925cff3cdad?Expires=1607299200&Signature=OwhDeAg5qMMu~hNfh0kplNr7RPrrFSBDzq3UbmT8ZHIe0DV5e-PInZPwt-wiolidA7J1C0UqGdTADaKcTsDBexfj6HFepaDmG~Xpzb6OCIAye2Hu-Fz5YYO9Ua8olI3szXWRyUD7XmKqM1qF-MHP03dKYi6Yb4fNvdVGfaxMcLJYTg1WHa06eT3nwPcVI7GRVcWSAK3M3ewnI~JJo18tnq-kFUrq1XzMQyC5Za8AAlEY-pXzCNdxMaCOsxQHPPMRTmEIW~RXuSnUTo0JQVD7m68LMICOr7o02zHSOCOVWAkV7dTALspld5dd~nsE9Mud4z-pldxAtjhzZVEFiYLdlQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+    },
+    {
+      "id": 2,
+      "name": "Mango",
+      "price": "5000",
+      "img": "https://s3-alpha-sig.figma.com/img/6232/9dc9/67e38ad83a6fae6659ff5f4659219db7?Expires=1607299200&Signature=ZxnCULfS0u-WnGdlfc5DSYpLcpgUjo~~CEvSSm~bL5Pn-i5DMHvI3VGy5ALvK-X0HwXymRSdNw3~VA1KkoUWFdXDnnlSatQ~brPlqJkc66xg~hIUcUeCnaagDnDE-QXsB7dbd8Wjmn64bynKHfGKRxHTVLtRApwcff-5~UdhTP4pcgkNvF-KKz2V4nS7sQCyNBjMB93U8PaXc5R3KU3opfzcWfQiuhsls9Q5xpvUcFTTVFCiGKoyxGckMozYOIV3Fzorz0ZTUr~o4kFP3J0H68qF1flQcCqv-68sMCMlANSdIc16anmRKSY4EKw8RsS9zUChRtNsr6AXWpS7M8jfXg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+    },
+    {
+      "id": 3,
+      "name": "Green Coconut",
+      "price": "5000",
+      "img": "https://s3-alpha-sig.figma.com/img/4023/118e/5da85ea2df661b911a03baac6a9de1c9?Expires=1607299200&Signature=FuMv7EVvYsYwN8JtKWxxgTgoZAmZaqVGRjYd6KBsCrYik4O8b2TD1bTHPynn3jeM5nbEGWA1s4beKMnIycZEjd1i-G80nzMSbfjzve6~gZrs3Zmv164h6clEk86z1c1qkLs8ZiygyoTMD8gjMlB1QsNyZSwpj4fXyZ6ESxAZa9~vLx-FLw9tgxeLG2RmiLwiByT465AVt~peram6hpvlKtUWfweogmWvs6l4nt6IRcY4FeOo1QWk7nAzx9CVu0juHWSgg-pNLhnatAa9c8ZpG2tcF5d8RUKY3thxyC7XHHnTR-HQJssBCMccvHgfhGCcWvelXzfHPvih7QHsqoZYZw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+    },
+    {
+      "id": 4,
+      "name": "Boba Mango",
+      "price": "4000",
+      "img": "https://s3-alpha-sig.figma.com/img/d590/4e9f/deb5d0f25a01f298b406bf12e3b980f6?Expires=1607299200&Signature=ehDrCaC0oQwBsEbrqQvjwiEU-QU2Ig4fdC8l6SE8CiipkA2IrEoAxw1m5iXLACOf3B7dq-Mb4Wjdwjiz44vvullzgfk5AKUBsUjAGhIezGeVHTfvXsdueVR4w9M40xgodUneRZm~09rT2Xb3GpyL3Ytwa4P2XHNGoXPjtpkS2ah7gWp8RuPjmjvH61nbCQbMtZFr7DKx72MbTbT5JpSznCgLbW2XwSVBGW1qiUhgjvSkvkb-Shx5A3IDQnwGz-UKuz3AV~ORqMXha5P1JfC6MCXMrsEEfE2rAt4Y92sSYqcM9Uj8mZp7TWhxJy9r06rGVKH6SfjAQs~sddcLWdrykg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+    },
+    {
+      "id": 5,
+      "name": "Bill Berry Boba",
+      "price": "4000",
+      "img": "https://s3-alpha-sig.figma.com/img/c91a/130d/99812eca74b192d69abc9b5ad2a97201?Expires=1607299200&Signature=XfVIEEE4t27BNvipszcE~YpsoWqcbiCU0BbGtw2v1TbEQsf6gZH2zg2cIeEFuq9mH5lENY-Z~5GR9j7ggzLQvwh6i3ssJPBRIh1GPQRY-LcNjvjMWMWBsRHRKZRwoD27aX0HDs7V18W3FedDzFzCOiYVKl94Bx4MQrWj1YEwZayCK-JrfbXJ6fIbGyD3cw03IOqhmq4CAqMa8KfzZe6JkSpjNcpLG0P8SZHLTADBNUGv3EkVoJyYS~EcEVPOc2YYTt6g4g38YwVJb9QyRByrhRYZxEhQExy870FoxWW-ALwp1t~bA-SZ0KtS5yMMjpx08is9pdK27ZtNjii-JO5sVw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+    },
+    {
+      "id": 6,
+      "name": "Kiwi Popping Pearl",
+      "price": "5000",
+      "img": "https://s3-alpha-sig.figma.com/img/3dbd/dff1/9f672a3713f55e8efe97e637120fd656?Expires=1607299200&Signature=OzXKK1GOYE5A7oOpi5Ox1T-0VYOmt3uAb0y747Ort~bHTzDwki8R~~ZuyE91znXT0MzS4WVa77pGIHmnT4K4U4Zo1PSj7BRa9GU-S4akbU5wIpb-uBnz~wtnV15-RmQQf9umsVPgSyJdZL4UY7gTn7nxyfA2l4jDkPf9mQou81gUOyoj7XjX5gi0cGTzdQoQ67iDDZvEtJ2nZH6A3HnKjqH66RGHA5bDXo-kQXRG4bOqiJYvqKcfJ-4EEqw7HtQz2~O3u9yBqjayv-wr3~HXndjdvnNQ3kMpQ7WBHnXKE7T6pnjFx3j7PuQ3RXHHLPNsQKguRyUnfxXoPMmFYGFcfA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+    },
+    {
+      "id": 7,
+      "name": "Matcha Cantaloupe",
+      "price": "5000",
+      "img": "https://s3-alpha-sig.figma.com/img/182d/6348/ad01d0cbc1097f33f338b0d917255280?Expires=1607299200&Signature=UFQiLwm-Lp2zufq4tpMQvhkQMFENUQA2UN-UFzynRP-nxrWmRBxUp0zIlJsJLJNHp51WA1uc3AUqIR7CEiAuJ-oTR2uHJl3sN1h6tV1zalEWcnV6UpvX2OVUU6N8youhe5NAdbPzPV65JTOdDlKIxmY0yqJzqHg0UeUyWBSrZx~1exeoygusYknpScAcBdAjW9y3jxfsXa4Yjf~k3Vx14BNNLF5Xs5SFHdrwuC3yt8RmmoIzPaUGTP8ZpniYCd71Kp8v60G~GCsZImUMDMV5qQVti3m43MEloemC-JyFgasl9hnozODAtpLx9HNdQyjH-GvEU~PCr1YgA6yVtxF1ew__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+    },
+    {
+      "id": 8,
+      "name": "Strawberry Popping",
+      "price": "4000",
+      "img": "https://s3-alpha-sig.figma.com/img/634e/132d/e8be8b6efdbc9321c21519b5892b16b7?Expires=1607299200&Signature=I2~cQjh18D9pL5CdYQqDuzkQn9x2E4y6Nt4UHwU0QW7r2rYAzBdRiZAo2q8tt6bnorxJVVA7WoE3RVga4K6vCUDkfQ98kG-FzzB1s5~MqPndvpKf3jZCtHaLSYgV5dCxRaHUZRriPbBtvwaKmTsg0bomD4ifgon7kn3L1PxsYwFVrgunhItkOBGyTCqHGvT-KNJHAbNn19qYzzS~jJI4sPIJsPhAIVCew~ANybbxWS4ARRcRVSoPijD-NBkGymHqq459UrfWhyzfFRDJkWNOPU56GyN4YYn948nLjtc0ayHv06PgMH2NelbohhCKkJ36T0t1YoBoCs6QCGILnscIdw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+    },
+    {
+      "id": "TOP1606718333941",
+      "name": "Bulir Hijau",
+      "price": "5000",
+      "img": "https://res.cloudinary.com/satria-img/image/upload/v1606718328/satriayud/nhuueqhwzumcsqlfhjdx.png"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Ice Coffe Palm Sugar",
+      "price": 27000,
+      "img": "https://s3-alpha-sig.figma.com/img/82f2/db53/fac76fcc5fc42321f68aa860e9145f4f?Expires=1607299200&Signature=cviytiuLkgWgVRMH-VSLs8PHyeIb~tn0EXkd8CG4rCL2eb~TwzsgjFet8h6jp3C1HQ5OY2Dz3ewbo75IuWo5plZ3zWfrerS~1ilVVxXmCLm49gPQrCEDJF8txk2Ml6BZmdRsaooeEI4KtnZpGQklfTgjDFYA5fYMxz3oSYgz7JJ7nKP9WSk9YBd1TjfZx2ahzbfwICHyqC6GSLDP9UpG5Gve9mybn~G3D~~BuddpSHRhvhvd~bWXP1kewDM1zO-Q9LQTqzjgDew7AgkhCzLvXopl2QMg1RfDtzrhmL33ov2tC574oVARbeMOhjSsOKrqemB-yIdVc5A8lDbqEPjGKw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+    },
+    {
+      "id": 2,
+      "name": "Ice Coffe Green Tea",
+      "price": 31000,
+      "img": "https://s3-alpha-sig.figma.com/img/0ce6/84bc/0f4e2f95bbf53e057c8051e5829ad356?Expires=1607299200&Signature=cncRxmgFNZ9L9UIPJ~6TTgtg55AYxM~EESzZGn89g8F36DBQz5~P9o5JIbZr6OHwu3vGvTKx1KAkXybsnO2rUZUofnmsowf9mHo5X48uOa1WxxJ3IaQ1uxWWVdc9h0CuQce-TH0ml2wziiuPsdUmjeTBRvEIdXie4HX1VFZCfg6KUSC8pN1Ji5K-N4lahzCkWZU8J7wf0YjX244LpPm4yPJCk9h6oI2ndVKtoqMC8DHbrvWgH6~0db6WpwkUlYGVASfdkL1nm-jTUtz3caCRaZXsJovYo2Ec4Fok3yB1znuqsG7Gs4BZOacUpmgTqSElHTK-jp7iznI1zjmvSUd7Bw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+    },
+    {
+      "id": 3,
+      "name": "Hanami Latte",
+      "price": 29000,
+      "img": "https://s3-alpha-sig.figma.com/img/0655/9843/7bb2fcf50294d6e214bde156ddc7046d?Expires=1607299200&Signature=F6FbUM1W~HSi7kC-ABXgyVMcMREI5v1PNAv5gl1orWbXiDeduq3E89ZGiawOLUIsP5o8TMRIUAQZiOG4rsR5fyDEI3kXhVakMYnrsk-pT--khI1IWXRS446oI-JSJVZ8CNDutmjKpYXampTOIROeuc~-iFeasqKeapMANDLZ93s-~u7M02As~RhF-aUTUh1o325QrGIH-0yW9YxyKsudNJ8FRQgm-4Kj1gSbYHz5ULVsHVpBLigkRsSRcgEso0ZjPHRL0NQOw4rNe9IN0f~KzrfeH0tWfJVR0fJ4TxH~po40~dCLk~wK4Bxfv58jDtkENwWWudja4eiSYYoQjztKZg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+    },
+    {
+      "id": 4,
+      "name": "Clepon Coffe",
+      "price": 28000,
+      "img": "https://s3-alpha-sig.figma.com/img/455f/d2e8/c6f3c8f48b267cbb65c369485f9a27ad?Expires=1607299200&Signature=deiPeQJ2gUwLJfKbQMbHr2Z~4U3d0J0qINUKZ0j7lhmXLWbaogNfknlX51sb6s079VinDFckK6ZuLH0Abjq6xB-a6AQ19eCkisF9URuCa0sllgSb2b2rzT6YaNlguLY6JIo0HTxfHdcM9txNe6TVjMV9k8F8lQsF-Aw3KP71gStHQWV0qOWz-cidZLEwILJztMcY6EmdRHzBrs3FzSL5T~aHm2j~HUMUm1zGVmf31NYqNvbPiZ1IhAm~9-V66239CmpmKkWHdWNv5di7yoc3XP45czm-lZ33soCc2KB8OfLKcjgvywCvfHHGGBl0lXZ~1YDd9LTR-GDcKmoc-alVYw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+    },
+    {
+      "id": 5,
+      "name": "Clepon Coffe",
+      "price": 28000,
+      "img": "https://s3-alpha-sig.figma.com/img/455f/d2e8/c6f3c8f48b267cbb65c369485f9a27ad?Expires=1607299200&Signature=deiPeQJ2gUwLJfKbQMbHr2Z~4U3d0J0qINUKZ0j7lhmXLWbaogNfknlX51sb6s079VinDFckK6ZuLH0Abjq6xB-a6AQ19eCkisF9URuCa0sllgSb2b2rzT6YaNlguLY6JIo0HTxfHdcM9txNe6TVjMV9k8F8lQsF-Aw3KP71gStHQWV0qOWz-cidZLEwILJztMcY6EmdRHzBrs3FzSL5T~aHm2j~HUMUm1zGVmf31NYqNvbPiZ1IhAm~9-V66239CmpmKkWHdWNv5di7yoc3XP45czm-lZ33soCc2KB8OfLKcjgvywCvfHHGGBl0lXZ~1YDd9LTR-GDcKmoc-alVYw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+    },
+    {
+      "id": 6,
+      "name": "Clepon Coffe",
+      "price": 28000,
+      "img": "https://s3-alpha-sig.figma.com/img/455f/d2e8/c6f3c8f48b267cbb65c369485f9a27ad?Expires=1607299200&Signature=deiPeQJ2gUwLJfKbQMbHr2Z~4U3d0J0qINUKZ0j7lhmXLWbaogNfknlX51sb6s079VinDFckK6ZuLH0Abjq6xB-a6AQ19eCkisF9URuCa0sllgSb2b2rzT6YaNlguLY6JIo0HTxfHdcM9txNe6TVjMV9k8F8lQsF-Aw3KP71gStHQWV0qOWz-cidZLEwILJztMcY6EmdRHzBrs3FzSL5T~aHm2j~HUMUm1zGVmf31NYqNvbPiZ1IhAm~9-V66239CmpmKkWHdWNv5di7yoc3XP45czm-lZ33soCc2KB8OfLKcjgvywCvfHHGGBl0lXZ~1YDd9LTR-GDcKmoc-alVYw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+    },
+    {
+      "id": 7,
+      "name": "Clepon Coffe",
+      "price": 28000,
+      "img": "https://s3-alpha-sig.figma.com/img/455f/d2e8/c6f3c8f48b267cbb65c369485f9a27ad?Expires=1607299200&Signature=deiPeQJ2gUwLJfKbQMbHr2Z~4U3d0J0qINUKZ0j7lhmXLWbaogNfknlX51sb6s079VinDFckK6ZuLH0Abjq6xB-a6AQ19eCkisF9URuCa0sllgSb2b2rzT6YaNlguLY6JIo0HTxfHdcM9txNe6TVjMV9k8F8lQsF-Aw3KP71gStHQWV0qOWz-cidZLEwILJztMcY6EmdRHzBrs3FzSL5T~aHm2j~HUMUm1zGVmf31NYqNvbPiZ1IhAm~9-V66239CmpmKkWHdWNv5di7yoc3XP45czm-lZ33soCc2KB8OfLKcjgvywCvfHHGGBl0lXZ~1YDd9LTR-GDcKmoc-alVYw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+    },
+    {
+      "id": 8,
+      "name": "Hanami Latte",
+      "price": 29000,
+      "img": "https://s3-alpha-sig.figma.com/img/0655/9843/7bb2fcf50294d6e214bde156ddc7046d?Expires=1607299200&Signature=F6FbUM1W~HSi7kC-ABXgyVMcMREI5v1PNAv5gl1orWbXiDeduq3E89ZGiawOLUIsP5o8TMRIUAQZiOG4rsR5fyDEI3kXhVakMYnrsk-pT--khI1IWXRS446oI-JSJVZ8CNDutmjKpYXampTOIROeuc~-iFeasqKeapMANDLZ93s-~u7M02As~RhF-aUTUh1o325QrGIH-0yW9YxyKsudNJ8FRQgm-4Kj1gSbYHz5ULVsHVpBLigkRsSRcgEso0ZjPHRL0NQOw4rNe9IN0f~KzrfeH0tWfJVR0fJ4TxH~po40~dCLk~wK4Bxfv58jDtkENwWWudja4eiSYYoQjztKZg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+    },
+    {
+      "id": "PROD1606718286933",
+      "name": "Ice Coffe",
+      "price": "30000",
+      "img": "https://res.cloudinary.com/satria-img/image/upload/v1606718282/satriayud/qqalbm4ba9ivjrqsnw8y.jpg"
+    }
+  ],
+  "incomes": [
+    {
+      "id": 1,
+      "name": "Sugen No Pants",
+      "address": "Cileuingsi",
+      "posCode": "16820",
+      "income": 69000,
+      "status": "Waiting Approve",
+      "action": "Approve"
+    },
+    {
+      "id": 2,
+      "name": "Haris Gams",
+      "address": "Serang",
+      "posCode": "42111",
+      "income": 30000,
+      "status": "Success",
+      "action": "Ceklis"
+    },
+    {
+      "id": 3,
+      "name": "Aziz Union",
+      "address": "Bekasi",
+      "posCode": "13450",
+      "income": 28000,
+      "status": "Cancel",
+      "action": "Silang"
+    },
+    {
+      "id": 4,
+      "name": "Lae Tanjung Balai",
+      "address": "Tanjung Balai",
+      "posCode": "21331",
+      "income": 30000,
+      "status": "On The Way",
+      "action": "Ceklis"
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1606718793261,
+      "idUser": 1606718063230,
+      "idProduct": 1,
+      "nameProduct": "Ice Coffe Palm Sugar",
+      "imgProduct": "https://s3-alpha-sig.figma.com/img/82f2/db53/fac76fcc5fc42321f68aa860e9145f4f?Expires=1607299200&Signature=cviytiuLkgWgVRMH-VSLs8PHyeIb~tn0EXkd8CG4rCL2eb~TwzsgjFet8h6jp3C1HQ5OY2Dz3ewbo75IuWo5plZ3zWfrerS~1ilVVxXmCLm49gPQrCEDJF8txk2Ml6BZmdRsaooeEI4KtnZpGQklfTgjDFYA5fYMxz3oSYgz7JJ7nKP9WSk9YBd1TjfZx2ahzbfwICHyqC6GSLDP9UpG5Gve9mybn~G3D~~BuddpSHRhvhvd~bWXP1kewDM1zO-Q9LQTqzjgDew7AgkhCzLvXopl2QMg1RfDtzrhmL33ov2tC574oVARbeMOhjSsOKrqemB-yIdVc5A8lDbqEPjGKw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+      "topings": [],
+      "price": 27000
+    }
+  ]
+}

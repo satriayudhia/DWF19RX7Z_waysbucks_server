@@ -1,0 +1,45 @@
+.logo-header-login {
+  margin-top: 80px;
+  padding-left: 10%;
+  .logo-header-cursor {
+    cursor: pointer;
+  }
+}
+
+.profile-header {
+  padding-right: 10%;
+  margin-top: 80px;
+  text-align: end;
+
+  .profile-header-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+  }
+  .cart-header {
+    cursor: pointer;
+    position: absolute;
+    margin-right: 100px;
+  }
+  .notif {
+    position: absolute;
+    color: #fff;
+    background-color: red;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    top: 16%;
+    padding-right: 6px;
+    margin-right: 90px;
+  }
+  .avatar-header-login {
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #bd0707;
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,27 @@
+.btn-action-confirm {
+  width: 100%;
+  height: 20px;
+  background: #3bb54a;
+  border-radius: 5px;
+  border: 2px solid #3bb54a;
+  padding-bottom: 20px;
+
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 13px;
+  line-height: 22px;
+
+  color: #ffff;
+  cursor: pointer;
+
+  &:hover {
+    background: #f7dada;
+    border: 2px solid #3bb54a;
+    color: #3bb54a;
+  }
+  &:active,
+  &:focus {
+    outline-style: none;
+  }
+}

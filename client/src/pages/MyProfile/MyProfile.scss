@@ -1,0 +1,195 @@
+.top-profile {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 35px;
+  margin-bottom: 26px;
+  .my-profile {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    color: #bd0707;
+  }
+  .my-transaction {
+    margin-left: -30px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    color: #613d2b;
+  }
+}
+
+.content-profile {
+  margin-left: 10%;
+  margin-right: 10%;
+  .content-profile-left {
+    background-color: greenyellow;
+  }
+  .file-input-img {
+    display: none;
+  }
+  .profpic {
+    width: 180px;
+    height: 221.79px;
+    object-fit: cover;
+    cursor: pointer;
+    border: 2px solid #bd0707;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  .profile-detail {
+    display: flex;
+    .profile-detail-right {
+      margin-left: 30px;
+    }
+    .brown-text {
+      font-family: Avenir;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 18px;
+      line-height: 25px;
+      color: #613d2b;
+    }
+    .black-text {
+      font-family: Avenir;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 25px;
+      color: #000000;
+    }
+  }
+
+  .my-trans-wrapper {
+    background: #f7dada;
+    border-radius: 10px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+
+    .my-trans-left-container {
+    }
+
+    .my-trans-right-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      align-self: center;
+      .logo-trans-qr {
+        margin-top: 10px;
+        width: 50px;
+        height: 50px;
+        align-self: center;
+      }
+
+      .qr-trans {
+        margin-top: 10px;
+        align-self: center;
+      }
+
+      .qr-otw {
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 14px;
+        color: #00d1ff;
+        background: rgba($color: #00d1ff, $alpha: 0.1);
+        border-radius: 2px;
+        margin-top: 10px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 15%;
+        padding-right: 15%;
+        align-self: center;
+      }
+
+      .qr-price {
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 10px;
+        line-height: 14px;
+        color: #974a4a;
+        margin-top: 10px;
+        align-self: center;
+      }
+
+      .arrival-confirmation {
+        margin-top: 10px;
+        align-self: center;
+      }
+    }
+  }
+}
+
+.modal-container-all {
+  width: 500px;
+  .modal-container-profile {
+    padding-top: 0px;
+    .btn-opt-approve {
+      width: 100%;
+      height: 20px;
+      background: #ffffff;
+      border-radius: 5px;
+      border: 2px solid #3bb54a;
+      padding-bottom: 20px;
+
+      font-family: Avenir;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 13px;
+      line-height: 22px;
+
+      color: #3bb54a;
+      cursor: pointer;
+
+      &:hover {
+        background: #3bb54a;
+        border: 2px solid #3bb54a;
+        color: #ffffff;
+      }
+    }
+
+    .btn-opt-cancel {
+      width: 100%;
+      height: 20px;
+      background: #ffffff;
+      border-radius: 5px;
+      border: 2px solid #ff9900;
+      padding-bottom: 20px;
+
+      font-family: Avenir;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 13px;
+      line-height: 22px;
+
+      color: #ff9900;
+      cursor: pointer;
+
+      &:hover {
+        background: #ff9900;
+        border: 2px solid #ff9900;
+        color: #ffffff;
+      }
+    }
+
+    .order-status-confirm {
+      font-family: Avenir;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 33px;
+      display: flex;
+      justify-content: center;
+      margin: auto;
+      margin-top: 15px;
+      margin-bottom: 15px;
+
+      color: #974a4a;
+    }
+  }
+}

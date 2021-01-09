@@ -1,0 +1,34 @@
+.login-wrapper {
+    width: 416px;
+    height: 391px;
+    padding-top: 20px;
+    padding-left: 45px;
+    
+    background: #FFFFFF;
+    border-radius: 10px;
+
+    .title-login {
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 49px;
+
+        color: #BD0707;
+
+        margin-bottom: 29px;
+    }
+
+    .to-register {
+        padding-top: 20px;
+        margin: auto;
+        width: 90%;
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 25px;
+
+        color: #000000;
+    }
+}

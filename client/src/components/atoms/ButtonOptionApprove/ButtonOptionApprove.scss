@@ -1,0 +1,27 @@
+.btn-action-approve {
+  width: 100%;
+  height: 20px;
+  background: #0acf83;
+  border-radius: 5px;
+  border: 2px solid #0acf83;
+  padding-bottom: 20px;
+
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 13px;
+  line-height: 22px;
+
+  color: #ffffff;
+  cursor: pointer;
+
+  &:hover {
+    background: #fff;
+    border: 2px solid #0acf83;
+    color: #0acf83;
+  }
+  &:active,
+  &:focus {
+    outline-style: none;
+  }
+}

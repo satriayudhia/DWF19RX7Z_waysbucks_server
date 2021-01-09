@@ -1,0 +1,27 @@
+.button-log {
+    width: 100px;
+    height: 30px;
+    
+    border: 2px solid #BD0707;
+    box-sizing: border-box;
+    border-radius: 5px;
+    outline: none;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+
+    background-color: #FFFF;
+    color: #BD0707;
+    cursor: pointer;
+
+    &:hover {
+        background-color:  #BD0707;
+        color: #FFFF;
+    }
+    &:active, &:focus {
+        outline-style: none;
+    }
+}
+

@@ -1,0 +1,21 @@
+.file {
+    border: 2px solid #BD0707;
+    padding: 12px 12px;
+    width: auto;
+    height: auto;
+    background: rgba(224, 200, 200, 0.25);
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 35px;
+
+    color: rgba(126, 115, 109, 1);
+    cursor: pointer;
+    .file-input {
+        display: none;
+    }
+}

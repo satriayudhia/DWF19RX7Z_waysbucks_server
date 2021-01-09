@@ -1,0 +1,66 @@
+.product-wrapper {
+  position: relative;
+  width: 241px;
+  height: 392px;
+  background: #f7dada;
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  cursor: pointer;
+  &:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  .img-product {
+    object-fit: cover;
+    width: 241px;
+    height: 312px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .product-name {
+    margin-top: 12px;
+    margin-left: 16px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #bd0707;
+  }
+  .product-price {
+    margin-top: -10px;
+    margin-left: 16px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #974a4a;
+  }
+  .logo-product {
+    position: absolute;
+    top: 40%;
+    left: 33%;
+    width: 79px;
+  }
+}
+
+.pls-login {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 33px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 39px;
+  margin-bottom: 39px;
+
+  color: #469f74;
+}

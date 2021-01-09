@@ -1,0 +1,27 @@
+.button {
+    margin-left: 15px;
+    width: 100px;
+    height: 30px;
+
+    border: 2px solid #BD0707;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+
+    background-color: #BD0707;
+    color: #FFFF;
+    cursor: pointer;
+
+    &:hover {
+        background-color:  #FFFF;
+        color: #BD0707;
+    }
+    &:active, &:focus {
+        outline-style: none;
+    }
+}
+

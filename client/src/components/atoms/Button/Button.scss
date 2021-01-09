@@ -1,0 +1,22 @@
+.btn-class {
+  width: 100%;
+  height: 50px;
+  background: #bd0707;
+  border-radius: 5px;
+  border: 2px solid #bd0707;
+
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+
+  color: #ffffff;
+  cursor: pointer;
+
+  &:hover {
+    background: #fff;
+    border: 2px solid #bd0707;
+    color: #bd0707;
+  }
+}
