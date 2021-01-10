@@ -53,9 +53,7 @@ exports.register = async (req, res) => {
             isAdmin
         })
 
-        const privateKey = "W4ysBucks"
-
-        const token = jwt.sign({id: newUser.id}, privateKey)
+        const token = jwt.sign({id: newUser.id}, process.env.PRIVATE_KEY)
 
         res.send({
             status: "success",
@@ -132,12 +130,11 @@ exports.login = async (req, res) => {
         })
       }
   
-      const privateKey = "W4ysBucks"
       const token = jwt.sign(
         {
           id: user.id,
         },
-        privateKey
+        process.env.PRIVATE_KEY
       );
   
       //response login dengan token
