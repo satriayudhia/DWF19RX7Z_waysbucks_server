@@ -6,7 +6,7 @@
   "author": "satriayudhia <satria.yudhiap@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "client": "yarn --cwd ../client/ starts",
+    "client": "yarn --cwd ./client/ starts",
     "start": "nodemon index.js",
     "devStart": "concurrently \"yarn start\" \"yarn client\""
   },
