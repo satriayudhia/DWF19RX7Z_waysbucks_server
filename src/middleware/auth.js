@@ -34,10 +34,9 @@ exports.auth = (req, res, next) => {
     //     }
     //   })
     // }
-
-    const privateKey = "W4ysBucks"
+    
     //lakukan verify token oleh jsonwebtoken
-    const verified = jwt.verify(token, privateKey)
+    const verified = jwt.verify(token, process.env.PRIVATE_KEY)
 
     //tambahkan request user sehingga bisa diakses di next function, middleware, etc
     req.user = verified

@@ -69,6 +69,8 @@ const LandingGuest = () => {
       const config = { headers: { "Content-Type": "application/json" } };
       const response = await API.post("/login", data, config);
 
+      console.log("response", response)
+
       if (response.status == 200 && response.data.data.isAdmin == 0) {
         setAlertShow(false);
         dispatch({
