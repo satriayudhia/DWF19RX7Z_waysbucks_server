@@ -8,7 +8,8 @@
   "scripts": {
     "client": "yarn --cwd ./client/ starts",
     "start": "nodemon index.js",
-    "devStart": "concurrently \"yarn start\" \"yarn client\""
+    "devStart": "concurrently \"yarn start\" \"yarn client\"",
+    "heroku-postbuild": "yarn install --prefix client && yarn build --prefix client"
   },
   "dependencies": {
     "bcrypt": "^5.0.0",

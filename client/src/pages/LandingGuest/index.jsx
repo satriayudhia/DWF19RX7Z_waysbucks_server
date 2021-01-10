@@ -71,7 +71,7 @@ const LandingGuest = () => {
 
       console.log("response", response)
 
-      if (response.status == 200 && response.data.data.isAdmin == 0) {
+      if (response.status == 200 && response.data.data.isAdmin == "false") {
         setAlertShow(false);
         dispatch({
           type: "LOGIN",
@@ -79,7 +79,7 @@ const LandingGuest = () => {
         });
         router.push("/home");
         setAuthToken(response.data.data.token);
-      } else if (response.status == 200 && response.data.data.isAdmin == 1) {
+      } else if (response.status == 200 && response.data.data.isAdmin == "true") {
         setAlertShow(false);
         dispatch({
           type: "LOGIN",
